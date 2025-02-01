@@ -7,3 +7,5 @@ jobs:
     steps:
       - name: check node version
         run: node --version
+      - name: Install Node Modules
+        run: npm install
